@@ -1,0 +1,72 @@
+/* -- General -- */
+body {
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+}
+
+#webcam-container {
+  margin: 50px 50px 50px 50px;
+  width: 500px;
+  height: 500px;
+  background-color: gray;
+  display: inline-block;
+}
+
+#label-container {
+    width: 150px;
+    height: 500px;
+    background-color: gray;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 50px;
+  }
+
+#start-button {
+  float: right;
+  margin-top: 28px;
+}
+
+#upload-model,
+#upload-weights,
+#upload-metadata {
+  display: none;
+}
+
+/* -- Material Desgin Lite -- */
+/* styling of cards*/
+.card.mdl-card {
+  width: 800px;
+  height: 800px;
+  margin: 50px auto;
+  font-size: 26px;
+}
+
+.mdl-card div {
+  margin-bottom: 12px;
+}
+
+.card > .mdl-card__actions {
+  padding: 32px 46px;
+}
+
+.card > .mdl-card__media {
+  background-color: transparent;
+}
+
+/* styling of icons and buttons */
+.mdl-button--icon .material-icons {
+  width: 64px;
+  line-height: 64px !important;
+}
+
+.mdl-button--icon .material-icons {
+  width: 64px;
+  height: 64px;
+  font-size: 64px;
+  transform: translate(-32px, -32px) !important;
+}
+
+.mdl-button--icon {
+  width: 64px !important;
+  height: 64px !important;
+  font-size: 64px !important;
+}
